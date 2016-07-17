@@ -1,0 +1,122 @@
+//Custom Css
+
+/*Color Variables*/
+$lime: #b0eb00;
+$bright-red: #b30015;
+$dark-blue: #2a00b3;
+$deep-cerulean: #0077b3;
+$bondi-blue: #00b0b3;
+$cyan: #24fbff;
+$heliotrope: #8a7dff;
+$silver-chalice: #a6a6a6;
+$scorpion: #595959;
+$tundora: #444;
+$mine-shaft: #363636;
+$cod-gray: #111;
+
+body{
+	margin:0;
+	font-family: Helvetica;
+	font-weight:lighter;	
+}
+
+.landing{
+	background:#1C1C1C;
+	height:100vh;
+	width:100%;
+
+	nav{
+		height:7vh;
+		min-height:80px;
+		display:fixed;
+		top:0; 
+		display:flex;
+		align-items: center;
+		background:black;
+		position: fixed;
+		width: 100%;
+		z-index:200;
+
+
+		.logo{
+			display: flex;
+			justify-content: flex-start;
+			width:20%;
+			align-items: center;
+			height: 100%;
+
+			img{
+				width: 250px;
+				padding-left:40px;
+			}
+		}
+
+		.navlinks{
+			display: flex;
+			justify-content: flex-end;
+			width:80%;
+
+			ul{
+				height: 100%;
+				margin:0;
+				padding:0;
+
+			}
+
+			ul li{
+				display: inline-block;
+				height: 100%;
+
+			}
+
+			a{
+				color:white;
+				text-decoration: none;
+				font-size: 1.3em;
+				letter-spacing: 1px;
+				margin-right: 70px;
+			}
+		}
+	}
+
+	.contents{
+		height: 100%;
+		// background: red;
+		width: 100%;
+		
+		img{
+			width: 40%;
+			margin-left: 30%;
+			padding-top:15%;
+			opacity: 1;
+		}
+
+		h2{
+			text-align: center;
+			position:absolute;
+			width: 100%;
+			bottom: 400px;
+			font-size: 4em;
+			color: white;
+			text-shadow: 3px 3px black;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.menu{
+	height:100vh;
+	background:white;
+	z-index:100;
+
+	.title{
+		height: 100px;
+		background:black;
+
+		h1{
+			color: white;
+			font-size: 6em;
+			margin:0;
+		}
+	}
+}
